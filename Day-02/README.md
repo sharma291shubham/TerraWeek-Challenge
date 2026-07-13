@@ -50,7 +50,7 @@ Beyond the challenge, I also explored:
 
 Read my complete Day 2 write-up here:
 
-> *(Add your DEV article link here after publishing.)*
+[**Day 2:** *Learning Terraform's Language with HCL*](https://dev.to/sharma291shubham/terraweek-day-2-learning-terraforms-language-with-hcl-10ei)
 
 ## 🚀 About TerraWeek
 
