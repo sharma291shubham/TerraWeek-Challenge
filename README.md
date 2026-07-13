@@ -25,8 +25,8 @@ My goal isn't just to learn Terraform commands—it's to understand **why** Terr
 | Day | Topic | Blog | Status |
 |-----|-------|------|--------|
 | 1 | Building My Terraform Foundation | ✅ | Completed |
-| 2 | HCL, Variables & Outputs | 🚧 | In Progress |
-| 3 | Providers, Resources & Data Sources | ⏳ | Coming Soon |
+| 2 | HCL, Variables & Outputs | ✅ | Completed |
+| 3 | Providers, Resources & Data Sources | 🚧 | In Progress |
 | 4 | Terraform State | ⏳ | Coming Soon |
 | 5 | Modules | ⏳ | Coming Soon |
 | 6 | Testing & Best Practices | ⏳ | Coming Soon |
@@ -72,7 +72,8 @@ _As the challenge progresses, I'll also be exploring cloud providers and additio
 I'm documenting each day of this challenge on DEV Community.
 
 - [**Day 1:** *Building My Terraform Foundation*](https://dev.to/sharma291shubham/terraweek-day-1-building-my-terraform-foundation-4oho)
-- Day 2 onwards coming soon...
+- [**Day 2:** *Learning Terraform's Language with HCL*](https://dev.to/sharma291shubham/terraweek-day-2-learning-terraforms-language-with-hcl-10ei)
+- Day 3 onwards coming soon...
 
 ---
 
