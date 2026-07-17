@@ -22,6 +22,12 @@ Instead of writing infrastructure from scratch every time, I learned how to pack
 - EC2
 - Git & GitHub
 
+## 📦 Reusable Modules
+
+As part of the bonus challenge, I published my reusable Terraform modules to a separate GitHub repository and consumed them using versioned `git::` sources.
+
+👉 **Terraform Modules Repository:** https://github.com/sharma291shubham/terraweek-terraform-modules
+
 ## 📖 Full Blog
 
 👉 Read the complete write-up on DEV.to: [**TerraWeek Day #5: Building Reusable Terraform Modules**](https://dev.to/sharma291shubham/terraweek-day-5-building-reusable-terraform-modules-12kl)
