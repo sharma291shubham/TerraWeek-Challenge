@@ -1,0 +1,31 @@
+# Terraform working directory
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+
+# Variable files
+*.tfvars
+*.tfvars.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# Terraform lock file
+# Uncomment if you DON'T want to commit it.
+# I recommend keeping it committed.
+# .terraform.lock.hcl
+
+# Plan files
+*.tfplan
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
