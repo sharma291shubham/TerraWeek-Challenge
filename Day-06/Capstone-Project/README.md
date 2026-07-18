@@ -55,6 +55,44 @@ This project was built with the following goals:
 
 ---
 
+# 🏗️ Architecture
+
+```text
+
+## High-level Architecture of the project
+
+
+                          GitHub
+                             │
+                             ▼
+                     GitHub Actions
+        fmt → validate → test → tflint → plan
+                             │
+                             ▼
+                    Terraform Root Module
+          ┌──────────────┬──────────────┐
+          │              │              │
+          ▼              ▼              ▼
+      Labels         Network        Storage
+                         │
+                         ▼
+      terraform-aws-modules/vpc/aws
+                         │
+         ┌───────────────┴───────────────┐
+         │                               │
+         ▼                               ▼
+     Amazon VPC                     Amazon S3
+         │
+         ├──────────────┐
+         ▼              ▼
+  Public Subnets   Private Subnets
+         │
+         ▼
+    NAT Gateway
+```
+
+---
+
 ## Components
 
 | Component | Purpose |
@@ -266,13 +304,13 @@ GitHub Actions
     └── terraform plan
     │
     ▼
-Merge
+  Merge
     │
     ▼
 Terraform Apply
     │
     ▼
-AWS
+   AWS
 ```
 
 Every Pull Request automatically performs:
@@ -357,43 +395,6 @@ This project incorporates Terraform best practices covered throughout TerraWeek.
 ---
 
 # 📸 Demo
-
-## 🏗️ Architecture
-
-
-## High-level Architecture of the project
-
-
-                          GitHub
-                             │
-                             ▼
-                     GitHub Actions
-        fmt → validate → test → tflint → plan
-                             │
-                             ▼
-                    Terraform Root Module
-          ┌──────────────┬──────────────┐
-          │              │              │
-          ▼              ▼              ▼
-      Labels         Network        Storage
-                         │
-                         ▼
-      terraform-aws-modules/vpc/aws
-                         │
-         ┌───────────────┴───────────────┐
-         │                               │
-         ▼                               ▼
-     Amazon VPC                     Amazon S3
-         │
-         ├──────────────┐
-         ▼              ▼
-  Public Subnets   Private Subnets
-         │
-         ▼
-    NAT Gateway
-
----
-
 ## 🌍 Terraform Workspaces
 
 ![workspace list](docs/screenshots/workspace-list.png)
