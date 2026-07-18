@@ -75,8 +75,9 @@ I'm documenting each day of this challenge on DEV Community.
 - [**Day 2:** *Learning Terraform's Language with HCL*](https://dev.to/sharma291shubham/terraweek-day-2-learning-terraforms-language-with-hcl-10ei)
 - [**Day 3:** *Provisioning My First AWS Infrastructure with Terraform*](https://dev.to/sharma291shubham/terraweek-day-3-provisioning-my-first-aws-infrastructure-with-terraform-1i2m)
 - [**Day 4:** *Understanding Terraform State & Remote Backends*](https://dev.to/sharma291shubham/terraweek-day-4-understanding-terraform-state-remote-backends-22ig/)
-- [**Day #5:** *Building Reusable Terraform Modules*](https://dev.to/sharma291shubham/terraweek-day-5-building-reusable-terraform-modules-12kl)
-- Day 6 onwards coming soon...
+- [**Day 5:** *Building Reusable Terraform Modules*](https://dev.to/sharma291shubham/terraweek-day-5-building-reusable-terraform-modules-12kl)
+- [**Day 6:** *Advanced Terraform*](https://dev.to/sharma291shubham/terraweek-day-6-advanced-terraform-359e)
+Capstone Project coming soon!
 
 ---
 
