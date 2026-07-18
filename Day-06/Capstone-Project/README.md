@@ -257,10 +257,32 @@ Infrastructure quality is validated using multiple tools.
 
 # 🚀 GitHub Actions
 
-> *(Insert GitHub Actions Pipeline Diagram)*
-
-```
-docs/diagrams/github-actions-pipeline.png
+```text
+Developer
+    │
+git push
+    │
+    ▼
+GitHub Repository
+    │
+    ▼
+GitHub Actions
+    │
+    ├── terraform fmt
+    ├── terraform validate
+    ├── terraform test
+    ├── tflint
+    ├── trivy
+    └── terraform plan
+    │
+    ▼
+Merge
+    │
+    ▼
+Terraform Apply
+    │
+    ▼
+AWS
 ```
 
 Every Pull Request automatically performs:
