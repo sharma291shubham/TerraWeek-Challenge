@@ -55,16 +55,6 @@ This project was built with the following goals:
 
 ---
 
-# 🏗️ Architecture
-
-> *(Insert Architecture Diagram)*
-
-```
-docs/diagrams/architecture.png
-```
-
----
-
 ## Components
 
 | Component | Purpose |
