@@ -58,10 +58,6 @@ This project was built with the following goals:
 # 🏗️ Architecture
 
 ```text
-
-## High-level Architecture of the project
-
-
                           GitHub
                              │
                              ▼
@@ -111,7 +107,7 @@ This project was built with the following goals:
 # 📁 Repository Structure
 
 ```text
-terraform-platform-foundation/
+Capstone-Project/
 │
 ├── .github/
 │   └── workflows/
