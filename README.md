@@ -1,12 +1,12 @@
-# 🌍 TerraWeek
+# 🌍 TerraWeek Challenge 2026
 
 > Learning Terraform in public, one day at a time.
 
-Welcome to my **TerraWeek** repository! 👋
+Welcome to my **TerraWeek Challenge** repository! 👋
 
-This repository documents my journey through the **Terraform Week** challenge, where I'm building a solid foundation in **Infrastructure as Code (IaC)** and Terraform through hands-on exercises, notes, and mini-projects.
+This repository documents my journey through the **Train With Shubham TerraWeek Challenge 2026**, where I explored Terraform by building hands-on projects covering Infrastructure as Code, AWS provisioning, remote state management, reusable modules, testing, CI/CD, and Terraform best practices.
 
-My goal isn't just to learn Terraform commands—it's to understand **why** Terraform exists, the problems it solves, and how it's used in real-world DevOps and Platform Engineering workflows.
+Rather than simply learning Terraform commands, my goal was to understand how Terraform is used to build and manage infrastructure in real-world DevOps and Platform Engineering workflows.
 
 ---
 
@@ -20,6 +20,25 @@ My goal isn't just to learn Terraform commands—it's to understand **why** Terr
 
 ---
 
+## ⭐ Repository Highlights
+
+Throughout this challenge I explored:
+
+- 🌍 Multi-environment Terraform deployments
+- 📦 Remote state with Amazon S3
+- 🔒 Native S3 state locking
+- 🧩 Reusable Terraform modules
+- ☁️ Official Terraform Registry modules
+- 🧪 Native Terraform testing
+- 🔒 Infrastructure security scanning with Trivy
+- 🚀 GitHub Actions CI pipelines
+- 🪝 Pre-commit hooks
+- 🔍 Terraform linting with TFLint
+- ☁️ HCP Terraform
+- 🏗️ A Terraform Platform Foundation capstone project
+
+---
+
 ## 📚 Challenge Progress
 
 | Day | Topic | Blog | Status |
@@ -28,9 +47,9 @@ My goal isn't just to learn Terraform commands—it's to understand **why** Terr
 | 2 | HCL, Variables & Outputs | ✅ | Completed |
 | 3 | Providers, Resources & Data Sources | ✅ | Completed |
 | 4 | Terraform State | ✅ | Completed |
-| 5 | Modules | 🚧 | In Progress |
-| 6 | Testing & Best Practices | ⏳ | Coming Soon |
-| 7 | Final Project & Wrap-up | ⏳ | Coming Soon |
+| 5 | Modules | ✅ | Completed |
+| 6 | Advanced Terraform, Testing & Best Practices | ✅ | Completed |
+| Capstone | Terraform Platform Foundation | ✅ | Completed |
 
 ---
 
@@ -44,26 +63,33 @@ TerraWeek/
 ├── Day-04/
 ├── Day-05/
 ├── Day-06/
-├── Day-07/
+│   └── Capstone-Project/
 └── README.md
 ```
 
 Each day's folder contains:
+
 - 📖 Notes and learnings
 - 💻 Hands-on Terraform code
 - 🧪 Experiments and exercises
 - 📄 A dedicated README
+
+The repository concludes with a **Terraform Platform Foundation** capstone project that brings together everything learned throughout the challenge into a single, production-inspired Terraform codebase.
 
 ---
 
 ## 🛠️ Tech Stack
 
 - Terraform
+- AWS
 - HCL (HashiCorp Configuration Language)
 - Git & GitHub
+- GitHub Actions
+- Terraform Test
+- Trivy
+- TFLint
+- HCP Terraform
 - Visual Studio Code
-
-_As the challenge progresses, I'll also be exploring cloud providers and additional Terraform tooling._
 
 ---
 
@@ -77,12 +103,25 @@ I'm documenting each day of this challenge on DEV Community.
 - [**Day 4:** *Understanding Terraform State & Remote Backends*](https://dev.to/sharma291shubham/terraweek-day-4-understanding-terraform-state-remote-backends-22ig/)
 - [**Day 5:** *Building Reusable Terraform Modules*](https://dev.to/sharma291shubham/terraweek-day-5-building-reusable-terraform-modules-12kl)
 - [**Day 6:** *Advanced Terraform*](https://dev.to/sharma291shubham/terraweek-day-6-advanced-terraform-359e)
-Capstone Project coming soon!
+- [**Capstone Project:** *Terraform Platform Foundation*](./Day-06/Capstone-Project/README.md)
 
 ---
 
 ## 🤝 Feedback Welcome
 
-I'm learning Terraform in public, so if you spot something I could improve or have a different perspective, I'd love to hear it. Feel free to open an issue or start a discussion!
+I'm learning Terraform in public, so if you spot something I could improve or have a different perspective, I'd love to hear it.
 
-Happy learning! 🚀
+Feel free to:
+
+- ⭐ Star the repository
+- 🐛 Open an issue
+- 💬 Start a discussion
+- 🤝 Connect with me on LinkedIn
+
+Constructive feedback is always appreciated!
+
+---
+
+Thanks for stopping by! If you're also learning Terraform or have suggestions for improving this repository, I'd love to connect.
+
+Happy Terraforming! 🌍
