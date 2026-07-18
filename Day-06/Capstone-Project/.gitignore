@@ -1,0 +1,24 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform lock file
+.terraform.lock.hcl
+
+# Variable files
+*.auto.tfvars
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+.pre-commit-hooks.yaml
